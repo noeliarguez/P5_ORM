@@ -1,0 +1,12 @@
+miscapturas/
+user.json
+data/
+node_modules/
+.env
+*.log
+*.sqlite3
+*.sqlite
+*.pem
+.vscode
+.idea
+package-lock.json
