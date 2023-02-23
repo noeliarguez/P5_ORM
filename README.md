@@ -28,9 +28,6 @@ gestionar los datos de la aplicación en una base de datos **SQLite**.
 
 El siguiente modelo relacional sirve de guía para identificar los modelos y relaciones definidas:
 
-**Error: los doctores no tiene DNI: Pendiente corregir el diagrama.**
-**Error: Cambiar el tipo de los id a INTEGER: Pendiente corregir el diagrama.**
-
 ![diagrama-entidad-relacion](./eer.png)
 
 En esta práctica se van a desarrollar un programa de ejemplo **app.js** que se ejecuta con el comando
