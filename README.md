@@ -311,14 +311,20 @@ Capturas a entregar con esta práctica:
 - Captura 1: Captura del terminal ejecutando `node app.js`:
 
 <kbd>
-<img src="https://user-images.githubusercontent.com/47325335/215490804-b4280f90-c9a4-4f5a-a8e3-be99fc421b1b.png" alt="drawing" width="250"/>
+<img src="https://user-images.githubusercontent.com/716928/220897249-d5a5532a-9e59-43a0-8417-802e77c82d1b.png" alt="node app.js" width="250"/>
 </kbd>
 
 - Captura 2: Captura de un cliente SQLite mostrando información de la BBDD:
-- 
+
 <kbd>
-<img src="https://user-images.githubusercontent.com/47325335/215490538-aeb9a926-2f29-4ddf-bb05-961a0e037602.png" alt="drawing" width="250"/>
+<img src="https://user-images.githubusercontent.com/716928/220897677-cc56b2db-37ec-46b6-9758-5daaf05b1d66.png" alt="sqlite3" width="250"/>
 </kbd>
+
+
+<kbd>
+<img src="https://user-images.githubusercontent.com/716928/220897631-12fedd7b-6f6f-415c-8c6b-a61cf41b8a93.png" alt="liya" width="250"/>
+</kbd>
+
 
 ## 8. Instrucciones para la Entrega y Evaluación.
 
