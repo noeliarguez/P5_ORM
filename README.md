@@ -73,7 +73,7 @@ de acuerdo al esquema relacional aportado.
 
 - **models/index.js**.
 El alumno debe completar este fichero para inicializar un objeto **sequelize**
-con la BBDD ausar, importar las definiones de los modelos, y
+con la BBDD a usar, importar las definiones de los modelos, y
 definir las relaciones siguientes:
   - Relación 1-a-N entre Hospital y Paciente.
   - Relación N-a-M entre Paciente y Doctor.
