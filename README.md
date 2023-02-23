@@ -314,7 +314,7 @@ Capturas a entregar con esta práctica:
 <img src="https://user-images.githubusercontent.com/716928/220897249-d5a5532a-9e59-43a0-8417-802e77c82d1b.png" alt="node app.js" width="250"/>
 </kbd>
 
-- Captura 2: Captura de un cliente SQLite mostrando información de la BBDD:
+- Captura 2: Captura de varios clientes SQLite mostrando información de la BBDD:
 
 <kbd>
 <img src="https://user-images.githubusercontent.com/716928/220897677-cc56b2db-37ec-46b6-9758-5daaf05b1d66.png" alt="sqlite3" width="250"/>
