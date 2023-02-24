@@ -29,7 +29,7 @@ gestionar los datos de la aplicación en una base de datos **SQLite**.
 El siguiente modelo relacional sirve de guía para identificar los modelos y relaciones definidas:
 
 <kbd>
-<img src="https://user-images.githubusercontent.com/716928/221199177-ac307a79-4877-472f-81a4-c057d1eacbea.png" alt="Diagrama Entidad Relación" width="250"/>
+<img src="https://user-images.githubusercontent.com/716928/221199177-ac307a79-4877-472f-81a4-c057d1eacbea.png" alt="Diagrama Entidad Relación" width="350"/>
 </kbd>
 
 En esta práctica se van a desarrollar un programa de ejemplo **app.js** que se ejecuta con el comando
