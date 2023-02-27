@@ -83,11 +83,11 @@ describe("Practica Sequelize CORE", function () {
         this.msg_ok = 'Conexión a la base de datos con éxito';
         this.msg_err = 'Fallo en la conexión a la base de datos';
         try {
-            sequelize = require('../../models');
+            sequelize = require('../../src/models');
             await sequelize.sync({force: true});
-            patientCtrl = require('../../controllers/patient');
-            hospitalCtrl = require('../../controllers/hospital');
-            doctorCtrl = require('../../controllers/doctor');
+            patientCtrl = require('../../src/controllers/patient');
+            hospitalCtrl = require('../../src/controllers/hospital');
+            doctorCtrl = require('../../src/controllers/doctor');
 
         } catch (error) {
             console.log(error)

@@ -32,26 +32,26 @@ El siguiente modelo relacional sirve de guía para identificar los modelos y rel
 <img src="https://user-images.githubusercontent.com/716928/221199177-ac307a79-4877-472f-81a4-c057d1eacbea.png" alt="Diagrama Entidad Relación" width="350"/>
 </kbd>
 
-En esta práctica se van a desarrollar un programa de ejemplo **app.js** que se ejecuta con el comando
+En esta práctica se va a desarrollar un programa de ejemplo **src/app.js** que se ejecuta con el comando
 
 ```
-node app.js
+node src/app.js
 ```
 
-El fichero **app.js** contiene el programa principal y se usa solamente para probar 
+El fichero **src/app.js** contiene el programa principal y se usa solamente para probar 
 las funciones que el alumno tiene que desarrollar en los ficheros controladores
-del directorio **controllers**.
+del directorio **src/controllers**.
 
 El programa usa tres modelos: **Doctor**, **Hospital** y **Patient**.
 El alumno debe definir estos modelos y las relaciones entre ellos, completando los
-ficheros que se proporcionan en la carpeta **models**.
+ficheros que se proporcionan en la carpeta **src/models**.
 Entre los doctores y pacientes hay que definir una relación M-a-N.
 Entre los hospitales y pacientes hay que definir una relación 1-a-N.
 
 Los controladores que ejecutan las acciones sobre los modelos se implementan
-en los ficheros **controllers/patient.js**, **controllers/hospital.js** y **controllers/doctor.js**.
+en los ficheros **src/controllers/patient.js**, **src/controllers/hospital.js** y **src/controllers/doctor.js**.
 El alumno debe codificar las funciones propuestas para estos controladores
-para que las acciones que se realizan en **app.js** funcionen correctamente. 
+para que las acciones que se realizan en **src/app.js** funcionen correctamente. 
 Para ello, desarrollará las operaciones correspondientes con Sequelize implementando las operaciones
 CRUD sobre los objetos patiente, hospital y doctor, así como otra serie de queries.
 
@@ -66,23 +66,23 @@ Instrucciones [aquí](https://github.com/CORE-UPM/Instrucciones_Practicas/blob/m
 
 El alumno deberá completar los siguientes ficheros:
 
-- **models/patient.js**, **models/doctor.js**, **models/hospital.js**.
+- **src/models/patient.js**, **src/models/doctor.js**, **src/models/hospital.js**.
 El alumno debe completar estos ficheros con la definición los modelos 
 de acuerdo al esquema relacional aportado.
 
-- **models/index.js**.
+- **src/models/index.js**.
 El alumno debe completar este fichero para inicializar un objeto **sequelize**
 con la BBDD a usar, importar las definiones de los modelos, y
 definir las relaciones siguientes:
   - Relación 1-a-N entre Hospital y Paciente.
   - Relación N-a-M entre Paciente y Doctor.
 
-- **controllers/patient.js**, **controllers/hospital.js** y **controllers/doctor.js**.
+- **src/controllers/patient.js**, **src/controllers/hospital.js** y **src/controllers/doctor.js**.
 Contienen las funciones que deberá completar el alumno. 
 Se debe usar el ORM **Sequelize** para 
 realizar todas las operaciones relacionadas con la base de datos y devolver un resultado de la operación.
 
-**NOTA**: recuerde que las peticiones a las bases de datos son asíncronas, por lo que  
+**NOTA**: recuerde que las peticiones a las bases de datos son asíncronas, por lo que
 los métodos que ejecutan deben ser asíncronos (como puede observar en la cabecera 
 de los mismos), y por tanto, las operaciones con Sequelize deben ir precedidas 
 del término **await**. Por ejemplo, 
@@ -92,7 +92,7 @@ del modelo Pacient definido con Sequelize.
 
 ### 5.1 Funciones del controlador de pacientes
 
-Las funciones que debe completar el alumno en el controlador **controllers/patient.js**
+Las funciones que debe completar el alumno en el controlador **src/controllers/patient.js**
 son las siguientes:
 
 
@@ -163,7 +163,7 @@ son las siguientes:
 
 ### 5.2 Funciones del controlador de hospitales
 
-Las funciones que debe completar el alumno en el controlador **controllers/hospital.js**
+Las funciones que debe completar el alumno en el controlador **src/controllers/hospital.js**
 son las siguientes:
 
 > ### create(name, city)
@@ -203,7 +203,7 @@ son las siguientes:
 
 ### 5.3 Funciones del controlador de doctores
 
-Las funciones que debe completar el alumno en el controlador **controllers/doctor.js**
+Las funciones que debe completar el alumno en el controlador **src/controllers/doctor.js**
 son las siguientes:
 
 
