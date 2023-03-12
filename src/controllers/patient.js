@@ -2,7 +2,7 @@ const {models} = require('../models');
 
 // Muestra la informacion de un paciente
 exports.read = async function (patientId) {
-    // Rellene aqui ...
+    
 }
 
 // Crea un paciente en un hospital
