@@ -9,9 +9,17 @@ module.exports = sequelize => {
     }
 
     // Inicialize el modelo Doctor aqui
-    Doctor.init(
-
-        // Rellene aqui ...
+    Doctor.init( {
+        speciality: {
+			type: DataTypes.STRING
+		},
+		surname: {
+			type: DataTypes.STRING
+		},
+        name: {
+            type: DataTypes.STRING
+        }
+	}, {sequelize}
 
     )
 
